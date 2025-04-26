@@ -44,7 +44,7 @@ public class ApiExceptionController {
 
     @GetMapping("/api/default-handler-ex")
     public String defaultException(@RequestParam Integer data) {
-        return "okf";
+        return "ok";
     }
 
 
